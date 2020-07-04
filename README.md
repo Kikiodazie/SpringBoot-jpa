@@ -1,4 +1,6 @@
-#SpringBoot JPA 
+
+# SpringBoot JPA
+ 
 A well packaged basic implementation of springboot JPA using spring data and Java Persistence API's.
 
 Original content from [JavaTpoint](https://www.javatpoint.com/spring-boot-jpa), only change is the package organization.
