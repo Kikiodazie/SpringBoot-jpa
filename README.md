@@ -23,6 +23,7 @@ Install all project dependencies with:
 
 ###How to run
 
+
 ####Maven 
 Open a terminal and run the following commands to ensure that you have valid versions of Java and Maven installed:
 
@@ -32,19 +33,22 @@ Open a terminal and run the following commands to ensure that you have valid ver
 
 You should get the versions of Java and Maven.
 
-#####Using the Maven Plugin
+####Using the Maven Plugin
+
 The Spring Boot Maven plugin includes a run goal that can be used to quickly compile and run your application. Applications run in an exploded form, as they do in your IDE. The following example shows a typical Maven command to run a Spring Boot application:
 
 ``$ mvn spring-boot:run``
 
 
-#####Using Executable Jar
+####Using Executable Jar
+
 To create an executable jar run:
 
 ``$ mvn clean package``
 
 
 #### Testing - From [JavaTpoint](https://www.javatpoint.com/spring-boot-jpa)
+
 ``Step 19: Open the browser and invoke the URL http://localhost:8080/. It returns an empty list because we have not added any user in the List.``
 
 ``To add a user to the database, we will send a POST request by using the Postman.``
