@@ -15,16 +15,17 @@ Clone this repo to your local machine [How To Guide](https://www.howtogeek.com/4
 - [Maven installed](https://maven.apache.org/guides/index.html)
 - Basic knowledge of Springboot
 - Postman
+- [Basics of Spring Annotations](https://res.cloudinary.com/practicaldev/image/fetch/s--YU8nJzzn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/fd8q3ywld0g0k8g18ui0.JPG)
 
 ### Installing
 Install all project dependencies with:
 
 ``$ mvn install``
 
-###How to run
+### How to run
 
 
-####Maven 
+#### Maven 
 Open a terminal and run the following commands to ensure that you have valid versions of Java and Maven installed:
 
 ``$ java -version``
@@ -33,7 +34,7 @@ Open a terminal and run the following commands to ensure that you have valid ver
 
 You should get the versions of Java and Maven.
 
-####Using the Maven Plugin
+#### Using the Maven Plugin
 
 The Spring Boot Maven plugin includes a run goal that can be used to quickly compile and run your application. Applications run in an exploded form, as they do in your IDE. The following example shows a typical Maven command to run a Spring Boot application:
 
